@@ -8,7 +8,7 @@
 
 //mettiamo un for per fargli stampare tutti i numeri da 1 a 100
 
-for (let i = 0; i <= 100; i++) {        //mettiamo un if + console.log perstampare come FizzBuzz i multipli sia di 3 che di 5
+for (let i = 1; i <= 100; i++) {        //mettiamo un if + console.log perstampare come FizzBuzz i multipli sia di 3 che di 5
                                         //lo mettiamo per primo per far si che non venga sovrascritto
     if (i % 3 == 0 && i % 5 == 0){
         console.log("FizzBuzz")
